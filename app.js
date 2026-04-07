@@ -116,3 +116,35 @@ function fibonacci(n){
 }
 
 console.log("Fibonacci:",fibonacci(5));
+
+// 1 to n-print
+
+function printNumers(m){
+   if (m===0) return;
+
+   printNumers(m-1);
+   console.log(m);
+}
+
+printNumers(3);
+
+// sumdig
+
+function sumDigit(n){
+    if(n===0)return 0;
+
+    return (n%10)+sumDigit(Math.floor(n/10))
+}
+console.log("sumDigit");
+console.log(sumDigit(1234))
+
+
+//  power of n 
+
+function power(a,b){
+ if (b===0)return 1;
+ return a*power(a,b-1);
+}
+
+console.log("power :",power(2,3)
+);
