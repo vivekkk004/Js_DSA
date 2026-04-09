@@ -36,3 +36,23 @@ while (Rstart < Rend ){
 }
 
 console.log("Reverse an Array",arr);
+
+// Second Largest Element in Array
+
+let arrr = [10,5,20,8];
+
+let largest = -Infinity;
+let secondLagrest = -Infinity;
+
+for (let i = 0; i< arrr.length; i++){
+  if (arrr[i]>largest){
+    secondLagrest = largest;
+   largest = arrr[i];
+    }else if (arrr[i]>secondLagrest&& arrr[i]!==largest);
+  }
+if(secondLagrest === -Infinity){
+  console.log("No second largest elment in arr",largest)
+}else{
+  console.log("Second Largest",secondLagrest);
+
+}
