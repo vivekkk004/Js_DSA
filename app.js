@@ -148,3 +148,13 @@ function power(a,b){
 
 console.log("power :",power(2,3)
 );
+
+
+
+let str = "vivek";
+let reversed ="";
+ for ( let i =str.length -1 ; i>=0; i--){
+    reversed += str[i]
+ }
+ 
+console.log(reversed); 

@@ -56,3 +56,6 @@ if(secondLagrest === -Infinity){
   console.log("Second Largest",secondLagrest);
 
 }
+
+// Remove Duplicates from Array 
+
